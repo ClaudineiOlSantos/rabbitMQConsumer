@@ -1,0 +1,9 @@
+rabbit:
+  host: localhost
+  user: user
+  pass: user
+  exchange: log.topic
+  queue1: warn
+  queue2: error
+  router1: log.warn.info
+  router2: log.debug.error
